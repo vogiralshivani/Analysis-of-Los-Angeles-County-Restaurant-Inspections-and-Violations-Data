@@ -113,8 +113,3 @@ t<-table(all$violation_code,all$grade)
 res.ca <- CA(t, graph = FALSE)
 fviz_ca_biplot(res.ca, repel = TRUE,title="Correspondence analysis Biplot for Grade v/s Violation")
 
-all<-read.csv("C:/Users/Vogiral Shivani/Desktop/all.csv")
-all<-select(all,-X)
-
-records_2017<-all %>% count(activity_date)
-
