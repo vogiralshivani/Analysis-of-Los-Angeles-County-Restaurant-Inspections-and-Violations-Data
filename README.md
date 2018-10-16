@@ -17,4 +17,4 @@ Attributes in the dataset: activity_date, employee_id, facility_address, facilit
   </p>
 </p>
 
-For the project two datasets have been merged by the attribute “serial_number”
+For the project two datasets have been merged by the attribute “serial_number” and only inspection data from 15 areas of LA county have been considered for analysis
